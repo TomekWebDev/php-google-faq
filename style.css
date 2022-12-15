@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    padding-bottom: 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+header span {
+    font-size: 1.5rem;
+    color: #5f6368;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+
+}
+
+header a {
+    padding: 20px;
+    color: black;
+}
+
+
+
+.profile {
+    color: white;
+    border-radius: 50%;
+    padding: 6px 15px;
+    background-color: orange;
+}
+
+header li:hover {
+    color: rgb(106, 106, 238);
+    padding-bottom: 19px;
+    border-bottom: 2px solid rgb(106, 106, 238);
+}
+
+header img {
+    margin-left: 30px;
+    padding: 10px;
+    width: 8%;
+}
+
+main {
+    padding-top: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Roboto', arial, sans-serif;
+}
